@@ -1,0 +1,43 @@
+footer{
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    background-color: #78D0D4;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+}
+
+p{
+    font-weight: bold;
+    margin: 0.5em;
+}
+
+#flex-redes{
+    margin: 0.5em 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+i{
+    color: black;
+}
+
+i:hover{
+    color: white;
+    transition: 0.8s;
+}
+
+footer div{
+    height: 1px;
+    width: 20%;
+    background-color: black;
+    margin: 0 8em 0 8em;
+}
+
+#coaching{
+    font-weight: bold;
+    margin: 0.5em 0 0 0;
+}
