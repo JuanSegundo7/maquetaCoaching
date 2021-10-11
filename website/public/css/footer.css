@@ -23,11 +23,12 @@ p{
 
 i{
     color: black;
+    transition: 1s;
+
 }
 
 i:hover{
     color: white;
-    transition: 0.8s;
 }
 
 footer div{

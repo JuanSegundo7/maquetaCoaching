@@ -134,11 +134,11 @@ section{
     height: 2em;
     margin: 0 0.4em 2em 0;
     background-color: white;
+    transition: 0.8s;
 }
 
 .square:hover{
     color: #78D0D4;
-    transition: 0.7s;
 }
 
 #article-2{
@@ -371,11 +371,12 @@ fieldset{
     align-items: center;
     width: 9em;
     justify-content: space-evenly;
+    transition: 0.8s;
+
 }
 
 #flex-ubicacion i:hover{
     color: #78D0D4;
-    transition: 0.8s;
 }
 
 #flex-ubicacion i{
@@ -465,9 +466,10 @@ button{
     border: none;
     background-color: white;
     border-radius: 10px;
+    /* color: white; */
+    transition: 0.8s;
 }
 
 button:hover{
     color: #00C4C9;
-    transition:  0.8s;
 }

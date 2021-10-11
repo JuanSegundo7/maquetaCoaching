@@ -39,6 +39,11 @@ nav li{
     color: #00C4C9 ;
     font-size: 1.5em;
     margin: 0 1em 0 1em;
+    transition: 0.8s;
+}
+
+li:hover{
+    color: #097375;
 }
 
 #bottom{
