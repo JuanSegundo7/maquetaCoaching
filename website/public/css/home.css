@@ -59,11 +59,6 @@ section{
     font-weight: normal;
 }
 
-#presentacion{
-    width: 50vw;
-    margin: 1.5em;
-    border: 2px solid #00C4C9;
-}
 
 /********** COMO TRABAJAMOS *********/
 
@@ -461,22 +456,27 @@ button:hover{
     #coachingOrg h1 {
         font-size: 2.5em;
     }
+    #presentacion{
+        width: 50vw;
+        margin: 1.5em;
+        border: 2px solid #00C4C9;
+    }
     #flex-presentacion p {
         font-size: 1.5em;
     }
     #coachingOrg p {
         font-size: 1.5em;
-        text-align: justify;
         margin: 1em;
     }
     /********** COMO TRABAJAMOS *********/
     #comoTrabajamos-titulo h1 {
         font-size: 2.5em;
+        padding: 0.5em;
     }
     #box-square {
-        width: 8em;
+        width: 9em;
         height: 70%;
-        margin: 1.4em 0.5em 0 0;
+        margin: 4.4em 0.5em 0 0;
     }
     #box-square2 img {
         width: 100%;
@@ -484,18 +484,17 @@ button:hover{
         object-fit: fill;
     }
     #box-square2{
-        width: 8em;
-        height: 10em;
+        width: 9em;
+        height: 8em;
         justify-content: flex-start;
     }
-    #flex-trbaajamos{
-        margin: 1.5em;
+    #flex-trabajamos{
+        margin: 1em;
     }
     #flex-trabajamos p {
         font-size: 1.5em;
         width: 100%;
         margin: 1em 0;
-        text-align: justify;
     }
     .square{
         width: 2em;
@@ -575,6 +574,15 @@ button:hover{
     }
     label{
         display: none;
+    }
+}
+
+@media (min-width: 1000px){
+    input {
+        width: 25em;
+    }
+    #texto {
+        width: 52em;
     }
 }
 
@@ -994,20 +1002,6 @@ button:hover{
         border-radius: 10px;
         margin: 0.5em;
         padding: 1.2em;
-    }
-
-    #flex-botones{
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    button{
-        padding: 1em 3em;
-        border: none;
-        background-color: white;
-        border-radius: 10px;
-        /* color: white; */
-        transition: 0.8s;
     }
 
 }

@@ -48,8 +48,6 @@ li:hover{
 
 #bottom{
     background-color: RGBA(0,196,201,0.58);
-    padding: 2em;
-    margin: 0 0 2em 0px;
 }
 
 #bottom h2{
@@ -77,14 +75,15 @@ a{
     }
     #necesitas{
         width: 70%;
-        font-size: 2.3em;
-        margin: 4em 0 0 0.3em;
+        font-size: 2.2em;
+        margin: 3em 0 0 0.3em;
     }
     #bottom h2 {
         font-size: 2em;
     }
     #bottom {
-        margin: 0 0 3em 0px;
+        margin: 0 0 7em 0px;
+        padding: 1.5em;
     }
 }
 
@@ -99,8 +98,8 @@ a{
         transition: 0.8s;
     } 
     #bottom{
+        margin: 0 0 10em 0px;
         padding: 2em;
-        margin: 0 0 2em 0px;
     }
     
     #bottom h2{
@@ -110,7 +109,7 @@ a{
     
     #necesitas{
         width: 60%;
-        font-size: 4em;
+        font-size: 3.5em;
         margin: 4em 0 0 0.3em;
     }
 }
