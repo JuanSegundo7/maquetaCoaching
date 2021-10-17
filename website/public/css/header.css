@@ -68,3 +68,49 @@ li:hover{
 a{
     text-decoration: none;
 }
+
+/********** MEDIA-QUERYS *********/
+
+@media (min-width: 768px){
+    nav li{
+        font-size: 1.3em;
+    }
+    #necesitas{
+        width: 70%;
+        font-size: 2.3em;
+        margin: 4em 0 0 0.3em;
+    }
+    #bottom h2 {
+        font-size: 2em;
+    }
+    #bottom {
+        margin: 0 0 3em 0px;
+    }
+}
+
+@media (min-width: 1000px){
+    nav{
+        margin: 2em 0 0 0;
+    }
+    
+    nav li{
+        font-size: 1.5em;
+        margin: 0 1em 0 1em;
+        transition: 0.8s;
+    } 
+    #bottom{
+        padding: 2em;
+        margin: 0 0 2em 0px;
+    }
+    
+    #bottom h2{
+        font-size: 3em;
+        color: white;
+    }
+    
+    #necesitas{
+        width: 60%;
+        font-size: 4em;
+        margin: 4em 0 0 0.3em;
+    }
+}
