@@ -795,6 +795,7 @@ button:hover{
         color: rgb(84, 84, 84);
         font-size: 1.5em;
         font-weight: normal;
+        text-align: center;
     }
 
     #box1 p{
@@ -802,6 +803,7 @@ button:hover{
         color: rgb(84, 84, 84);
         font-weight: normal;
         font-size: 1.5em;
+        text-align: center;
     }
 
     #box img {
